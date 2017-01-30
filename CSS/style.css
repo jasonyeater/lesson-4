@@ -124,9 +124,14 @@ body {
     letter-spacing: 2px;
 }
 
+#main-content-wrapper #skills span {
+    font-weight: 400;
+}
+
 #aside-content-wrapper {
-    background-color: yellow;
-    width:20%;
+    background-color: #fff;
+    width:35%;
+    font-family:'lato', sans-serif;
 }
 
 footer {
