@@ -85,6 +85,45 @@ body {
     margin-top: 50px;
 }
 
+.image-content > img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.image-content > h4 {
+    font-family:'lato', sans-serif;
+    font-weight: 300;
+    color: #005EFF;
+}
+
+.image-content > h4 > a {
+    color: #005EFF;
+}
+
+.image-content > h4 > a:hover {
+    color: #00B1FF;
+}
+
+#main-content-wrapper article {
+    width:50%;
+    margin-top: 100px;
+}
+
+#main-content-wrapper article h2 {
+   text-align: center;
+}
+
+#main-content-wrapper article p {
+    max-width:300px;
+    margin: 0 auto;
+}
+
+#main-content-wrapper #skills {
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
 #aside-content-wrapper {
     background-color: yellow;
     width:20%;
