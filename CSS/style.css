@@ -64,14 +64,25 @@ body {
     margin:0;
 }
 
+#middle-wrapper-width {
+    display: flex;
+    font-family:'lato', sans-serif;
+    max-width: 960;
+    margin: 0 auto;
+}
+
 #middle-wrapper {
+    
+}
+
+.side-by-side {
     display: flex;
 }
 
-
-#main-content-wrapper {
-    background-color: blue;
-    width:80%;
+#main-content-wrapper .image-content {
+    text-align: center;
+    width:50%;
+    margin-top: 50px;
 }
 
 #aside-content-wrapper {
@@ -86,4 +97,12 @@ footer {
 
 footer > h1 {
     margin:0;
+}
+.image-content > img {
+    width: 200px;
+}
+
+#favorite-sites > ul > li > img {
+    max-width: 200px;
+    max-height: 200px;
 }
